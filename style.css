@@ -1,0 +1,117 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(Assets/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Aleo;
+    src: url(Assets/Aleo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Aleo-light;
+    src: url(Assets/Aleo-Light.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CABEÇALHO */
+#cabecalho {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #FFF;
+}
+
+#cabecalho .cabecalho_sombra {
+    margin-top: 20px;
+    height: 16px;
+    width: 1100px;
+    background-color: #A09B98;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho_nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cabecalho_nav_itens {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.cabecalho_nav_item {
+    margin: 20px;
+    background: #A09B98;
+    font: 400 17px 'Aleo', serif;
+    border-radius: 10px;
+    padding: 9px 18px;
+    color: #FFF;
+}
+
+.logo{
+    width: 190px;
+    height: 180px;
+}
+/* ========================= */
+
+.quadroDois{
+    margin-top: 300px;
+    margin-left: 500px;
+    text-align: center;
+    height: 300px;
+    width: 700px;
+    background-color: #A09B98;
+}
+.tituloDois{
+    color: #FFF;
+    font-size: 50px;
+
+}
+
+
+.quadroTres{
+    margin-top: 300px;
+    margin-left: 500px;
+    text-align: center;
+    height: 330px;
+    width: 700px;
+    background-color: #A09B98;
+}
+
+.TituloTres{
+    color: #FFF;
+    margin-top: 90px;
+    font-size: 50px;
+
+}
+.texto{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+/* .quadroDois{
+    margin-top: 300px;
+    margin-left: 500px;
+    text-align: center;
+    height: 300px;
+    width: 700px;
+    background-color: #A09B98;
+} */
